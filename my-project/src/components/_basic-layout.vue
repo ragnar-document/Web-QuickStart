@@ -20,6 +20,8 @@ import header from "./_basic-layout-header";
 </script>
 
 <style>
-
+html{
+  background: #eee;
+}
  
 </style>
