@@ -1,4 +1,4 @@
-# 前端快速入门
+
 
 #### 前言
 
@@ -26,7 +26,9 @@
 
 > 编写样式
 
+[第六章：来段故事了解一下html与css吧](https://github.com/ragnar-document/Web-QuickStart/blob/master/第六章来段故事了解一下html与css吧.md)
 
+[第七章：头部组件的编写](https://github.com/ragnar-document/Web-QuickStart/blob/master/第七章头部组件的编写.md)
 
 ------
 
