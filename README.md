@@ -12,7 +12,7 @@
 
 ### 目录
 
-> 项目搭建
+> 项目搭建 
 
 [第一章：为什么选择Vue？](https://github.com/ragnar-document/Web-QuickStart/blob/master/第一章为什么选择Vue？.md)
 
@@ -32,9 +32,11 @@
 
 [第七章：头部组件的编写](https://github.com/ragnar-document/Web-QuickStart/blob/master/第七章头部组件的编写.md)
 
+[第八章：首页内容布局](https://github.com/ragnar-document/Web-QuickStart/blob/master/第八章首页内容布局.md)
+
 ------
 
-
+> 项目预览 <https://ragnar-document.github.io/my-project/#/home>
 
 ### 环境准备
 
