@@ -18,7 +18,6 @@
           :default-active="activeIndex"
           class="header-navMain-vertical-list"
           mode="horizontal"
-          @select="handleSelect"
         >
           <el-submenu index="1">
             <template slot="title">
@@ -62,6 +61,7 @@
 <script>
 
 export default {
+  name:'bs-header',
   data() {
     return {
       activeIndex: "1"
@@ -69,9 +69,6 @@ export default {
   },
   watch: {},
   methods: {
-    handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-    }
   },
   components: {}
 };
@@ -91,8 +88,8 @@ a {
 }
 .page-header {
   position: sticky;
-    top: 0;
-  // position: relative;
+  top: 0;
+  margin-bottom: 10px;
   box-shadow: 0 1px 2px 0 @shadow;
   background-color: #fff;
   &::after {

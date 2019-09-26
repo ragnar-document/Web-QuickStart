@@ -1,13 +1,15 @@
 <template>
  <div>
-     <bs-header></bs-header>
-     <router-view></router-view>
+     <bs-header/>
+     <router-view class="page"></router-view>
  </div>
 </template>
 
 <script>
-import header from "./_basic-layout-header";
+import header from './_basic-layout-header'
+
  export default {
+   name:'bs-layout',
    data () {
      return {
 
@@ -23,5 +25,8 @@ import header from "./_basic-layout-header";
 html{
   background: #eee;
 }
- 
+.page{
+  max-width: 960px;
+  margin: 0 auto;
+}
 </style>
